@@ -260,6 +260,10 @@ To begin, let's build an image that will create a container running webpack-dev-
 
 Okay, we've got a containerized environment with live reloading/HMR working for our application. But we still want to add a local development database. This will enable us to work on new features without worrying about our test data affecting production.
 
+*************************************************************
+*************************************************************
+*************************************************************
+
 1. Create a file in the top level directory called `Dockerfile-postgres` that implements the following
 
    - Start FROM a baseline image of postgres v9.6.8
