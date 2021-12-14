@@ -6,7 +6,7 @@
 version: "3.0"
 services:
   test:
-    image: selilac/mm-dev
+    image: csunit13/mm-dev
     container_name: "mm-test"
     ports:
       - "3000:3000"
@@ -18,7 +18,7 @@ services:
     command: npm run test
 
   postgres-db-test:
-    image: selilac/mm-postgres
+    image: csunit13/mm-postgres
     container_name: mm-test-database
     environment:
       - POSTGRES_PASSWORD=admin

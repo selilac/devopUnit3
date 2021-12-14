@@ -1,5 +1,5 @@
-# start FROM a base layer of postgres 14.1
-FROM postgres:14.1
+# start FROM a base layer of postgres 13.4
+FROM postgres:13.4
 
 # copy in ./scripts/db_init.sql to /docker-entrypoint-initdb.d/  
 # It will run automatically from within the container to 
