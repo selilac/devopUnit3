@@ -1,4 +1,4 @@
-# start FROM a base layer of node v10.15
+# start FROM a base layer of node v16.13
 FROM node:16.13
 
 # Globally install webpack in the container for webpack dev server
